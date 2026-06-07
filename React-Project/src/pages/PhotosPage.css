@@ -1,0 +1,33 @@
+/* ===== PHOTOS PAGE ===== */
+.page-photos {
+  background: linear-gradient(180deg, var(--deep-maroon) 0%, #0D0303 100%);
+  min-height: 100vh;
+  padding: 120px 60px 80px;
+  margin-top: 72px;
+}
+
+.photos-header {
+  max-width: 1400px;
+  margin: 0 auto 60px;
+  text-align: center;
+  padding: 0 60px;
+}
+
+.photos-header .page-intro {
+  font-size: 18px;
+  color: rgba(253, 246, 227, 0.65);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* Mobile responsive */
+@media (max-width: 900px) {
+  .page-photos {
+    padding: 120px 24px 80px;
+  }
+
+  .photos-header {
+    padding: 0 24px;
+  }
+}

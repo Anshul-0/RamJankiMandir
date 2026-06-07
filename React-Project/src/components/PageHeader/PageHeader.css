@@ -1,0 +1,39 @@
+/* ===== PAGE HEADER ===== */
+.page-header {
+  max-width: 1400px;
+  margin: 0 auto 80px;
+  text-align: center;
+}
+
+.page-eyebrow {
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--saffron);
+  margin-bottom: 16px;
+  display: block;
+}
+
+.page-title {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: clamp(28px, 4vw, 50px);
+  color: var(--cream);
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+
+.page-title span {
+  background: linear-gradient(135deg, var(--gold-light), var(--saffron));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.page-intro {
+  font-size: 20px;
+  line-height: 1.8;
+  color: rgba(253, 246, 227, 0.7);
+  max-width: 700px;
+  margin: 0 auto;
+}

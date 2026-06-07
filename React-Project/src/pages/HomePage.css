@@ -1,0 +1,5 @@
+/* ===== HOME PAGE ===== */
+.page-home {
+  background: var(--deep-maroon);
+  min-height: 100vh;
+}
